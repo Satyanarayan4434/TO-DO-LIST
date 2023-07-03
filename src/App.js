@@ -10,7 +10,6 @@ function App() {
   const [addList, setAddList] = useState([]);
   
   let newList = (newData)=>{
-    
       setAddList([...addList, newData]);
       toast.success("Task Added");
   }
